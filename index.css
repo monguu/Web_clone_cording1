@@ -75,20 +75,25 @@ header > div .spot li:last-child a:after {
 header > div .spot li:last-child a {
   display: block;
   padding: 0;
-  width: 1.7rem; 
-  height: 1.7rem; 
+  width: 1.7rem;
+  height: 1.7rem;
   text-align: center;
-  border-radius: 0.25rem; 
-  line-height:1.7rem;  
-  font-size: 0; 
-  color:transparent;
-  background:#fff;
+  border-radius: 0.25rem;
+  line-height: 1.7rem;
+  font-size: 0;
+  color: transparent;
+  background: #fff;
   border: 1px solid #ccc;
-
 }
 header > div .spot li:last-child a:before {
-  content: "\e97a"; 
+  content: "\e97a";
   font-family: "xeicon";
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
   color: #000;
+}
+header > div .spot i {
+  display: none;
+}
+header .total {
+  display: none;
 }
